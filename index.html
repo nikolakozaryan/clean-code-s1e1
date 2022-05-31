@@ -14,7 +14,7 @@
       <section class="section section_new">
         <label class="section__header" for="new-task">Add Item</label>
         <div class="task-wrapper">
-          <input class="task-input" id="new-task" type="text">
+          <input class="task-wrapper__input" id="new-task" type="text">
           <button class="btn btn_add">Add</button>
         </div>
       </section>
@@ -22,18 +22,18 @@
         <h2 class="section__header">Todo</h2>
         <ul class="section_incomplete__list">
           <li class="task-wrapper">
-            <input class="task-checkbox" type="checkbox">
-            <label class="task-name">Pay Bills</label>
-            <input class="task-input" type="text">
+            <input class="task-wrapper__checkbox" type="checkbox">
+            <label class="task-wrapper__name">Pay Bills</label>
+            <input class="task-wrapper__input" type="text">
             <button class="btn btn_edit">Edit</button>
             <button class="btn btn_remove">
               <img class="btn_remove__img" src="./remove.svg" alt="remove task">
             </button>
           </li>
           <li class="task-wrapper task-wrapper_edit">
-            <input class="task-checkbox" type="checkbox">
-            <label class="task-name">Go Shopping</label>
-            <input class="task-input task-input_active" type="text" value="Go Shopping">
+            <input class="task-wrapper__checkbox" type="checkbox">
+            <label class="task-wrapper__name">Go Shopping</label>
+            <input class="task-wrapper__input" type="text" value="Go Shopping">
             <button class="btn btn_edit">Save</button>
             <button class="btn btn_remove">
               <img class="btn_remove__img" src="./remove.svg" alt="remove task">
@@ -45,9 +45,9 @@
         <h2 class="section__header">Completed</h2>
         <ul class="section_complete__list">
           <li class="task-wrapper">
-            <input class="task-checkbox" type="checkbox" checked>
-            <label class="task-name">See the Doctor</label>
-            <input class="task-input" type="text">
+            <input class="task-wrapper__checkbox" type="checkbox" checked>
+            <label class="task-wrapper__name">See the Doctor</label>
+            <input class="task-wrapper__input" type="text">
             <button class="btn btn_edit">Edit</button>
             <button class="btn btn_remove">
               <img class="btn_remove__img" src="./remove.svg" alt="remove task">
